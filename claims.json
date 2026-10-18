@@ -1,7 +1,7 @@
 [
  {
   "claim": "Archive decides 12 of 16 Defects4J comparisons; layers give 12, 13, 13, 14, 15, 16",
-  "where": "Sec. 5.1, Table 4",
+  "where": "Sec. 5.1, Table 2",
   "file": "results/v4/decidability/decidability.json",
   "path": [
    "defects4j",
@@ -18,7 +18,7 @@
  },
  {
   "claim": "Final interval against the pooled order [+9.27, +10.33]",
-  "where": "Table 4",
+  "where": "Fig. 4, Appendix C",
   "file": "results/v4/decidability/decidability.json",
   "path": [
    "defects4j",
@@ -37,7 +37,7 @@
  },
  {
   "claim": "Eleven decisions rest on reference and execution labels alone",
-  "where": "Abstract, Sec. 5.1",
+  "where": "Sec. 5.1",
   "file": "results/v4/decision_basis/decision_basis.json",
   "path": [
    "summary",
@@ -47,7 +47,7 @@
  },
  {
   "claim": "31 human-judged classes in the bases, 23 archived and 8 from the review",
-  "where": "Sec. 5.3",
+  "where": "Appendix D",
   "file": "results/v4/decision_basis/decision_basis.json",
   "path": [
    "summary"
@@ -60,7 +60,7 @@
  },
  {
   "claim": "Fix copies recorded as failing: 201 of 1,871 on Defects4J",
-  "where": "Abstract, Sec. 5.3",
+  "where": "Sec. 1, Sec. 5.3",
   "file": "results/v4/positive_controls/positive_controls.json",
   "path": [
    "artifacts",
@@ -111,7 +111,7 @@
  },
  {
   "claim": "Fresh campaign primary comparison open after execution, [-3.53, +3.23]",
-  "where": "Sec. 5.2, Table 5",
+  "where": "Sec. 5.2, Table 3",
   "file": "results/g1/g1_final.json",
   "path": [
    "G-E1",
@@ -129,7 +129,7 @@
  },
  {
   "claim": "All 16 decisions hold without the review's incorrect verdicts",
-  "where": "Sec. 5.3, Threats",
+  "where": "Sec. 5.3, Sec. 9",
   "file": "results/v4/f4_rubric_sensitivity_v1/f4_rubric_sensitivity.json",
   "path": [
    "decided_with_f4_incorrect_unknown"
@@ -138,7 +138,7 @@
  },
  {
   "claim": "Target-aware pre-flight: one-stage decided by the generated tests (1 needed, 1 of 4 targeted refuted)",
-  "where": "Table 6",
+  "where": "Sec. 5.2, Table 4",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -156,7 +156,7 @@
  },
  {
   "claim": "Target-aware pre-flight: testability, 0 of 5 helpful classes targeted by the generated tests",
-  "where": "Table 6",
+  "where": "Sec. 5.2, Table 4",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -173,7 +173,7 @@
  },
  {
   "claim": "Target-aware pre-flight: census decided the source-agnostic comparison (8 needed, 12 of 17 refuted)",
-  "where": "Table 6",
+  "where": "Sec. 5.2, Table 4",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -191,7 +191,7 @@
  },
  {
   "claim": "Fresh primary comparison: 157 refutations needed, 133 obtained",
-  "where": "Sec. 5.2, Table 6",
+  "where": "Sec. 5.2",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "g1",
@@ -206,7 +206,7 @@
  },
  {
   "claim": "Suspect-cell view: the final evidence still decides all 16 comparisons",
-  "where": "Sec. 5.3",
+  "where": "Appendix D",
   "file": "results/v4/r1_review_v1/r1_review_checks.json",
   "path": [
    "A1",
@@ -252,7 +252,7 @@
  },
  {
   "claim": "Prospective campaign: all eight frozen predictions correct",
-  "where": "Abstract, Sec. 5.2",
+  "where": "Abstract, Sec. 5.2, Table 5",
   "file": "results/v4/p1_prospective/outcomes.json",
   "path": [
    "predictions_correct"
@@ -274,7 +274,7 @@
  },
  {
   "claim": "Second decision point: 13 of 21 decided with the final evidence",
-  "where": "Sec. 5.4",
+  "where": "Appendix E",
   "file": "results/v4/p1_prospective/predictions.json",
   "path": [
    "decided_at_start"
