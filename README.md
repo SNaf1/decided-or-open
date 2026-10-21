@@ -31,16 +31,17 @@ the stored results (compared byte for byte with `paper/`), and checks the princi
 
 | Paper | Result file | Script |
 |---|---|---|
-| RQ1: Fig. 4, Table 2, Appendix C | `results/v4/decidability/`, `results/v4/decision_basis/` | `decidability_table.py`, `decision_basis.py` |
+| RQ1: Fig. 4, Tables 2 and 3, Appendix C | `results/v4/decidability/`, `results/v4/decision_basis/` | `decidability_table.py`, `decision_basis.py` |
 | RQ1 robustness, grid, top-k (Appendix D) | `results/v4/decidability/SENSITIVITY.md`, `results/v4/grid/`, `results/v4/topk/` | `decidability_table.py`, `run_grid.py`, `topk.py` |
-| Other settings: Table 3, Appendix E | `results/v4/humaneval/`, `results/g1/g1_final.json`, `results/v4/repairbench/`, `results/v4/d4c_frozen/`, `results/v4/prevarank/`, `results/v4/pod/` | per-setting scripts in `analysis_tools/v4/` |
-| RQ2: Table 4 | `results/v4/target_aware_preflight_v1/`, `results/v4/refutation_limit/` | `target_aware_preflight.py`, `refutation_limit.py` |
+| Other settings: Table 4, Appendix E | `results/v4/humaneval/`, `results/g1/g1_final.json`, `results/v4/repairbench/`, `results/v4/d4c_frozen/`, `results/v4/prevarank/`, `results/v4/pod/` | per-setting scripts in `analysis_tools/v4/` |
+| RQ2: Table 5 | `results/v4/target_aware_preflight_v1/`, `results/v4/refutation_limit/` | `target_aware_preflight.py`, `refutation_limit.py` |
+| Table 3 (convention vs interval) | `results/v4/refutation_limit/` | `refutation_limit.py` |
 | RQ3: Fig. 5, fix-copy check | `results/v4/positive_controls/`, `results/v4/positive_controls_bootstrap_v1/` | `positive_controls.py`, `check_controls.py` |
 | RQ3 and Appendix D: witnesses, panel, fix re-run | `results/v4/f1_concordance_run_v1/`, `results/v4/f6_panel/`, `results/v4/c1_fixrerun_run_v1/` | `execution_tools/`, `c1_fixrerun_analysis.py` |
 | Appendix D: human judgments | `results/v4/annotation_results/`, `results/v4/annotation_simple/ANSWERS_*.csv`, `results/v4/f4_rubric_sensitivity_v1/` | `f4_rubric_sensitivity.py` |
 | Appendix D: stress views, error budget, planner, unchanged-code-ineligible intervals | `results/v4/r1_review_v1/` | `r1_review_checks.py` |
 | Failure audit (RQ3) | `results/v4/r1_failure_audit/`, `results/v4/r1_failure_audit_run_v1/` | `select_r1_failure_audit.py`, `r1_failure_audit_analysis.py` |
-| RQ2: prospective campaign (Table 5); plausible patches (Appendix E) | `results/v4/p1_prospective/`, `results/v4/p1_prospective_run_v1/` | `select_p1_prospective.py`, `p1_record_verdicts.py`, `p1_analysis.py` |
+| RQ2: prospective campaign (Table 6); plausible patches (Appendix E) | `results/v4/p1_prospective/`, `results/v4/p1_prospective_run_v1/` | `select_p1_prospective.py`, `p1_record_verdicts.py`, `p1_analysis.py` |
 | Threats: conclusion validity | `results/v4/inference/` | inference scripts in `analysis_tools/v4/` |
 
 ## Pre-registration of the prospective campaign

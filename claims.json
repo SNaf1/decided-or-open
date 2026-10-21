@@ -111,7 +111,7 @@
  },
  {
   "claim": "Fresh campaign primary comparison open after execution, [-3.53, +3.23]",
-  "where": "Sec. 5.2, Table 3",
+  "where": "Sec. 5.2, Table 4",
   "file": "results/g1/g1_final.json",
   "path": [
    "G-E1",
@@ -138,7 +138,7 @@
  },
  {
   "claim": "Target-aware pre-flight: one-stage decided by the generated tests (1 needed, 1 of 4 targeted refuted)",
-  "where": "Sec. 5.2, Table 4",
+  "where": "Sec. 5.2, Table 5",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -156,7 +156,7 @@
  },
  {
   "claim": "Target-aware pre-flight: testability, 0 of 5 helpful classes targeted by the generated tests",
-  "where": "Sec. 5.2, Table 4",
+  "where": "Sec. 5.2, Table 5",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -173,7 +173,7 @@
  },
  {
   "claim": "Target-aware pre-flight: census decided the source-agnostic comparison (8 needed, 12 of 17 refuted)",
-  "where": "Sec. 5.2, Table 4",
+  "where": "Sec. 5.2, Table 5",
   "file": "results/v4/target_aware_preflight_v1/target_aware_preflight.json",
   "path": [
    "defects4j",
@@ -252,7 +252,7 @@
  },
  {
   "claim": "Prospective campaign: all eight frozen predictions correct",
-  "where": "Abstract, Sec. 5.2, Table 5",
+  "where": "Abstract, Sec. 5.2, Table 6",
   "file": "results/v4/p1_prospective/outcomes.json",
   "path": [
    "predictions_correct"
@@ -293,5 +293,57 @@
    "copy fails, other outputs of the cell compile": 101,
    "every output of the cell fails to compile": 6
   }
+ },
+ {
+  "claim": "Convention (all unlabelled patches incorrect) at the archive view, testability product: +1.02 pp",
+  "where": "Sec. 5.1, Table 3",
+  "file": "results/v4/refutation_limit/refutation_limit.json",
+  "path": [
+   "defects4j",
+   "results",
+   "testability",
+   "E0",
+   "A0"
+  ],
+  "expect": 1.0246
+ },
+ {
+  "claim": "Convention (all unlabelled patches incorrect) at the archive view, single-stage model: +1.84 pp",
+  "where": "Sec. 5.1, Table 3",
+  "file": "results/v4/refutation_limit/refutation_limit.json",
+  "path": [
+   "defects4j",
+   "results",
+   "one_stage",
+   "E0",
+   "A0"
+  ],
+  "expect": 1.8443
+ },
+ {
+  "claim": "Convention (all unlabelled patches incorrect) at the archive view, source-agnostic refit: +3.11 pp",
+  "where": "Sec. 5.1, Table 3",
+  "file": "results/v4/refutation_limit/refutation_limit.json",
+  "path": [
+   "defects4j",
+   "results",
+   "source_agnostic",
+   "E0",
+   "A0"
+  ],
+  "expect": 3.1079
+ },
+ {
+  "claim": "Convention (all unlabelled patches incorrect) at the archive view, best configuration: +0.00 pp",
+  "where": "Sec. 5.1, Table 3",
+  "file": "results/v4/refutation_limit/refutation_limit.json",
+  "path": [
+   "defects4j",
+   "results",
+   "best_config_top1",
+   "E0",
+   "A0"
+  ],
+  "expect": 0.0
  }
 ]
