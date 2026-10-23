@@ -2,6 +2,9 @@
 
 Replication package for *Decided or Open? Comparing Program Repair Techniques When Patch Correctness Is Unknown* by Sadnan Nafis (BRAC University).
 
+Archived version: [10.5281/zenodo.23590962](https://doi.org/10.5281/zenodo.23590962) (v1.0, the state of this
+repository at commit 8622f9e).
+
 ## Quick check (about a minute, standard library only)
 
 ```
